@@ -1,0 +1,7 @@
+h1 {
+  --my-color: blue;
+  /* 大文字と小文字で区別する */
+  /* ない場合の指定 x,y */
+  color: var(--My-color,orange);
+  border-bottom: 3px solid var(--my-color);
+}
