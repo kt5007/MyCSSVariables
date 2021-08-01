@@ -1,0 +1,24 @@
+/* 文章全体 */
+:root{
+  --my-color: blue;
+}
+
+/* 
+body{
+  --my-color: blue;
+} */
+
+h1 {
+  color: var(--my-color);
+  border-bottom: 3px solid var(--my-color);
+}
+
+/* 親からの継承を利用する */
+p{
+  color: var(--my-color);
+}
+
+/* 
+プロパティ名には使えない
+単位を宣言時につけるかどうしても後でつけたい場合はcalを使うか
+*/
